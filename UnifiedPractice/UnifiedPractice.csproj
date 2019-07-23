@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+	<TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" PrivateAssets="All" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnifiedPractice.Handlers\UnifiedPractice.Handlers.csproj" />
+    <ProjectReference Include="..\UnifiedPractice.Interfaces\UnifiedPractice.Interfaces.csproj" />
+    <ProjectReference Include="..\UnifiedPractice.Models\UnifiedPractice.Models.csproj" />
+    <ProjectReference Include="..\UnifiedPractice.Providers\UnifiedPractice.Providers.csproj" />
+    <ProjectReference Include="..\UnifiedPractice.Utility\UnifiedPractice.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

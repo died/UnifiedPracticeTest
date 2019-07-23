@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ical.Net" Version="4.1.11" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnifiedPractice.Interfaces\UnifiedPractice.Interfaces.csproj" />
+    <ProjectReference Include="..\UnifiedPractice.Models\UnifiedPractice.Models.csproj" />
+    <ProjectReference Include="..\UnifiedPractice.Providers\UnifiedPractice.Providers.csproj" />
+    <ProjectReference Include="..\UnifiedPractice.Utility\UnifiedPractice.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
